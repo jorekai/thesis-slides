@@ -11,5 +11,5 @@
     "@slidev/theme-seriph": "*",
     "playwright-chromium": "^1.11.1"
   },
-  "name": "-thesis-slides"
+  "name": "slides"
 }
