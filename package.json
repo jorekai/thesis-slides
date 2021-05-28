@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "slidev --open",
-    "build": "slidev build --base /thesis/",
+    "build": "slidev build",
     "export": "slidev export"
   },
   "dependencies": {
