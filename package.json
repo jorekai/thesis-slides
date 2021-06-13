@@ -6,11 +6,15 @@
     "export": "slidev export"
   },
   "dependencies": {
-    "@slidev/cli": "^0.15.0",
+    "@slidev/cli": "^0.20.4",
     "@slidev/theme-apple-basic": "^0.14.0",
     "@slidev/theme-default": "*",
     "@slidev/theme-seriph": "*",
-    "playwright-chromium": "^1.11.1"
+    "playwright-chromium": "^1.11.1",
+    "vue-div-100vh": "^0.2.0"
   },
-  "name": "slides"
+  "name": "slides",
+  "devDependencies": {
+    "slidev-theme-geist": "^0.5.0"
+  }
 }

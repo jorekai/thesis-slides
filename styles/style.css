@@ -1,0 +1,18 @@
+.slidev-layout {
+    h1,h2,h3{
+        color: #008dc7
+    }
+    h3{
+        opacity: 1 !important
+    }
+    .minusz{
+        z-index: -1
+    }
+    .footer{
+        background: #ff9e1b;
+    }
+    .cover-bg{
+        background: rgba(255, 156, 26, 0.3);
+        z-index: -1
+    }
+}

@@ -1,11 +1,15 @@
 ---
 # try also 'default' to start simple
-theme: seriph
+theme: default
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
-background: 
+colorSchema: light
+layout: cover
 # apply any windi css classes to the current slide
-class: 'text-center'
+class: text-center
+fonts:
+  # basically the text
+  sans: 'Roboto Condensed'
 # https://sli.dev/custom/highlighters.html
 highlighter: shiki
 # some information about the slides, markdown enabled
@@ -14,10 +18,12 @@ info: |
 ---
 
 # Machine Learning for Safer Smart Environments
+
 ### Exploration and Evaluation of Reinforcement
 ### Learning for Time Series Anomaly Detection
 
-Nils Jorek
+
+<Bar title="A thesis by Nils Jorek" cover/>
 
 
 
@@ -27,39 +33,25 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 ---
 
-# What is Slidev?
+# Agenda
 
-Slidev is a slides maker and presenter designed for developers, consist of the following features
-
-- 📝 **Text-based** - focus on the content with Markdown, and then style them later
-- 🎨 **Themable** - theme can be shared and used with npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embedding Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export into PDF, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - anything possible on a webpage
+What's the matter
 
 <br>
 <br>
 
-Read more about [Why Slidev?](https://sli.dev/guide/why)
+1. 📝 **Text-based** - focus on the content with Markdown, and then style them later
+2. 🎨 **Themable** - theme can be shared and used with npm packages
+3. 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
+4. 🤹 **Interactive** - embedding Vue components to enhance your expressions
+5. 🎥 **Recording** - built-in recording and camera view
+6. 📤 **Portable** - export into PDF, PNGs, or even a hostable SPA
+7. 🛠 **Hackable** - anything possible on a webpage
 
-<!--
-You can have `style` tag in markdown to override the style for the current page.
-Learn more: https://sli.dev/guide/syntax#embedded-styles
--->
 
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #fff 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-text-fill-color: transparent;
-}
-</style>
+
+<Bar title="Machine Learning for Safer Smart Environments"/>
+
 
 ---
 
@@ -111,39 +103,12 @@ function updateUser(id: number, update: User) {
 ```
 
 <arrow v-click="3" x1="400" y1="420" x2="230" y2="330" color="#564" width="3" arrowSize="1" />
-
+---
+layout: none
 ---
 
-# Components
-
-<div grid="~ cols-2 gap-4">
-<div>
-
-You can use Vue components directly inside your slides.
-
-We have provided a few built-in components like `<Tweet/>` and `<Youtube/>` that you can use directly. And adding your custom components is also super easy.
-
-```html
-<Counter :count="10" />
-```
-
-<!-- ./components/Counter.vue -->
-<Counter :count="10" m="t-4" />
-
-Check out [the guides](https://sli.dev/builtin/components.html) for more.
-
-</div>
-<div>
-
-```html
-<Tweet id="1390115482657726468" />
-```
-
-<Tweet id="1390115482657726468" scale="0.65" />
-
-</div>
-</div>
-
+<Plotly
+ link="//plotly.com/~jorekai/1.embed"/>
 
 ---
 class: px-20
