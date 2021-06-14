@@ -7,6 +7,7 @@ colorSchema: light
 layout: cover
 # apply any windi css classes to the current slide
 class: text-center
+monaco: true 
 fonts:
   # basically the text
   sans: 'Roboto Condensed'
@@ -35,46 +36,79 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 # Agenda
 
-What's the matter
+or today's lunch
 
 <br>
 <br>
 
-1. 📝 **Text-based** - focus on the content with Markdown, and then style them later
-2. 🎨 **Themable** - theme can be shared and used with npm packages
-3. 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-4. 🤹 **Interactive** - embedding Vue components to enhance your expressions
-5. 🎥 **Recording** - built-in recording and camera view
-6. 📤 **Portable** - export into PDF, PNGs, or even a hostable SPA
-7. 🛠 **Hackable** - anything possible on a webpage
+1. 📝 **Introduction** - why are we interested in this topic
+2. 📡 **State of the Art** - how far goes current/past research
+3. 🔎 **Objectives** - without objectives there's no goal
+4. 🧠 **Problem Model** - brain power's needed here
+5. ⌨️ **Design & Implementation** - computer scientists love this part
+6. 🥼 **Experiments & Results** - did we actually achieve something
+7. 🛠 **Conclusion & Outlook** - on the future of anomaly detection
 
 
 
-<Bar title="Machine Learning for Safer Smart Environments"/>
+<Bar title="Machine Learning for Safer Smart Environments" logo/>
 
 
 ---
+layout: two-cols
+preload: false
+---
 
-# Navigation
+<template v-slot:default>
 
-Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/navigation.html)
+# Introduction
 
-### Keyboard Shortcuts
+why are we interested in this topic
 
-|     |     |
-| --- | --- |
-| <kbd>right</kbd> / <kbd>space</kbd>| next animation or slide |
-| <kbd>left</kbd> | previous animation or slide |
-| <kbd>up</kbd> | previous slide |
-| <kbd>down</kbd> | next slide |
+<div grid="~ cols-2 gap-2" m="-t-3">
 
-<!-- https://sli.dev/guide/animations.html#click-animations -->
-<img
-  v-click
-  class="absolute -bottom-9 -left-7 w-80 opacity-50"
-  src="https://sli.dev/assets/arrow-bottom-left.svg"
-/>
-<p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
+
+</div>
+<br>
+<br>
+<br>
+<br>
+
+- interdisciplinary research area 
+- young in terms of contribution
+- safety critical systems
+- thrives through machine learning
+- how cross-domain can ML algorithms be
+- reinforcement learning outside of the box
+  
+</template>
+<template v-slot:right>
+
+
+<div v-motion-pop>
+  <img
+    :src="'../images/wordcloud.svg'"
+    class="mt-20 rounded-6xl"
+  />
+</div>
+<div class="source ml-18">
+<p class="text-xs text-white">crawled from https://en.wikipedia.org/wiki/Anomaly_detection</p>
+</div>
+
+<Bar title="Machine Learning for Safer Smart Environments"/>
+</template>
+
+<style>
+.source{
+  transform: translatey(-50px);
+}
+</style>
+---
+---
+# State of the Art
+how far goes current/past research
+
+<Bar title="Machine Learning for Safer Smart Environments"/>
 
 ---
 layout: image-right

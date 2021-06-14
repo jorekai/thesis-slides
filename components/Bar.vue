@@ -22,9 +22,11 @@ export default {
 </script>
 
 <template>
+  <!-- background -->
   <div
     v-if="cover !== false"
     class="
+      rounded-tl-8xl
       cover-bg
       w-full
       flex
@@ -38,7 +40,7 @@ export default {
     "
   ></div>
   <div
-    v-if="cover !== false"
+    v-if="cover !== false || logo !== false"
     class="flex w-full absolute h-2/10 top-0 left-0 py-0.5 px-6 text-sm"
   >
     <v-row class="flex">
@@ -65,19 +67,31 @@ export default {
     <div class="w-1/2 flex justify-end">
       <div class="flex justify-center items-center ml-4">
         <span class="mr-1">{{ currentDate() }} -</span>
-        <span
-          >Slide {{ $slidev.nav.currentPage }} of {{ $slidev.nav.total }}</span
+        <span class="mr-2"
+          >{{ $slidev.nav.currentPage }}/{{ $slidev.nav.total }}</span
         >
       </div>
     </div>
   </div>
   <!-- IF NORMAL SLIDE -->
+  <!-- background -->
   <div
-    v-if="title"
-    class="footer flex absolute h-1/4 bottom-0 right-0 py-0.5 px-3 text-sm"
+    v-if="!cover"
+    class="
+      rounded-tl-lg
+      footer
+      flex
+      absolute
+      h-1/4
+      bottom-0
+      right-0
+      py-0.5
+      px-3
+      text-sm
+    "
   ></div>
   <div
-    v-if="title"
+    v-if="!cover"
     class="flex absolute w-full bottom-0 py-0.5 left-0 px-4 text-sm"
   >
     <div class="w-1/2 text-left">
@@ -86,14 +100,25 @@ export default {
     <div class="w-1/2 flex justify-end">
       <div class="flex justify-center items-center ml-4">
         <span class="mr-1">{{ currentDate() }} -</span>
-        <span
-          >Slide {{ $slidev.nav.currentPage }} of {{ $slidev.nav.total }}</span
+        <span class="mr-2"
+          >{{ $slidev.nav.currentPage }}/{{ $slidev.nav.total }}</span
         >
       </div>
     </div>
   </div>
   <div
-    v-if="title"
-    class="minusz footer flex absolute w-1/6 bottom-0 right-0 py-3 px-4"
+    v-if="!logo"
+    class="
+      rounded-tl-lg
+      minusz
+      footer
+      flex
+      absolute
+      w-1/6
+      bottom-0
+      right-0
+      py-3
+      px-4
+    "
   ></div>
 </template>
