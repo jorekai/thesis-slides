@@ -45,10 +45,7 @@ export default {
   >
     <v-row class="flex">
       <v-col>
-        <img
-          :src="'../images/fra-uas.svg'"
-          class="h-full float-right pt-4 px-4 pb-4"
-        />
+        <img :src="'./fra-uas.svg'" class="h-full float-right pt-4 px-4 pb-4" />
       </v-col>
     </v-row>
   </div>

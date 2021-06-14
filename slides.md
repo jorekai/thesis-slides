@@ -87,7 +87,7 @@ why are we interested in this topic
 
 <div v-motion-pop>
   <img
-    :src="'../images/wordcloud.svg'"
+    :src="'./wordcloud.svg'"
     class="mt-20 rounded-6xl"
   />
 </div>
@@ -140,6 +140,8 @@ function updateUser(id: number, update: User) {
 ---
 layout: none
 ---
+
+# 
 
 <Plotly
  link="//plotly.com/~jorekai/1.embed"/>
