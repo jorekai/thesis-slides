@@ -108,6 +108,14 @@ why are we interested in this topic
 # State of the Art
 how far goes current/past research
 
+<br>
+<br>
+<br>
+<br>
+
+- <MyModal titleModalHook="hyperparameter optimization with reinforcement learning" imageUri="./sota1.png"></MyModal>
+  
+
 <Bar title="Machine Learning for Safer Smart Environments"/>
 
 ---
