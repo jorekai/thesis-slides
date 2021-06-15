@@ -15,8 +15,12 @@ const props = defineProps({
 
 const container = shallowRef<HTMLDivElement>();
 
-const setOpen = (e: MouseEvent) => {
+const setOpen = (e: MouseEvent | KeyboardEvent) => {
   if (e?.target === container.value) emit("setOpen");
+};
+
+const forceClose = () => {
+  emit("setOpen");
 };
 </script>
 
@@ -39,6 +43,7 @@ const setOpen = (e: MouseEvent) => {
         dark:border="~ gray-400 opacity-10"
         :style="{ display: 'flex', justifyContent: 'center' }"
         :class="props.class"
+        @keyup.space="forceClose"
       >
         <slot />
       </div>
