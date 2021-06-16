@@ -28,6 +28,7 @@ export default {
     {{ titleModalHook }}
   </button>
   <Modal v-bind:value="open" @setOpen="setOpen" class="px-6 py-4">
-    <img :src="imageUri" :style="{ width: 'auto'}" />
+    <img v-if="imageUri" :src="imageUri" class="max-w-150" />
+    <slot v-if="!imageUri"></slot>
   </Modal>
 </template>

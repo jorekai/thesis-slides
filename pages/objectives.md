@@ -30,6 +30,7 @@ without objectives there's no goal
 def achieve_goals(objectives):
   results = []
   for objective in objectives:
+    result = False
     result = use_brain(objective) # true/false
     if not result: # bruteforce
       result = dig_deeper(objective, use_brain)

@@ -6,11 +6,12 @@ Usage:
 
 <script setup lang="ts">
 import { defineProps } from "vue";
-const props = defineProps<{
-  link: string; // plotly link for chart
-  width?: number;
-  height?: number;
-}>();
+const props =
+  defineProps<{
+    link: string; // plotly link for chart
+    width?: number;
+    height?: number;
+  }>();
 </script>
 
 <template>
@@ -21,7 +22,7 @@ const props = defineProps<{
     style="position: absolute"
     frameborder="0"
     scrolling="no"
-    :src="link+'?modebar=false&link=false'"
+    :src="link + '?modebar=false&link=false'"
     allowfullscreen
   ></iframe>
 </template>

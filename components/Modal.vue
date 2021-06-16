@@ -39,7 +39,7 @@ const forceClose = () => {
       @click="setOpen"
     >
       <div
-        class="rounded-md bg-main shadow max-w-150"
+        class="rounded-md bg-main shadow max-w-200"
         dark:border="~ gray-400 opacity-10"
         :style="{ display: 'flex', justifyContent: 'center' }"
         :class="props.class"
