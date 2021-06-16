@@ -13,162 +13,33 @@ fonts:
   sans: 'Roboto Condensed'
 # https://sli.dev/custom/highlighters.html
 highlighter: shiki
+src: ./pages/cover.md
 # some information about the slides, markdown enabled
 info: |
   ## ©Master Thesis by Nils Jorek
 ---
-
-# Machine Learning for Safer Smart Environments
-
-### Exploration and Evaluation of Reinforcement
-### Learning for Time Series Anomaly Detection
-
-
-<Bar title="A thesis by Nils Jorek" cover/>
-
-
-
-<!--
-The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
--->
-
+src: ./pages/cover.md
 ---
-
-# Agenda
-
-or today's lunch
-
-<br>
-<br>
-
-1. 📝 **Introduction** - why are we interested in this topic
-2. 📡 **State of the Art** - how far goes current/past research
-3. 🔎 **Objectives** - without objectives there's no goal
-4. 🧠 **Problem Model** - brain power's needed here
-5. ⌨️ **Design & Implementation** - computer scientists love this part
-6. 🥼 **Experiments & Results** - did we actually achieve something
-7. 🛠 **Conclusion & Outlook** - on the future of anomaly detection
-
-
-
-<Bar title="Machine Learning for Safer Smart Environments" logo/>
-
-
+src: ./pages/agenda.md
 ---
 layout: two-cols
 preload: false
 ---
-
-<template v-slot:default>
-
-# Introduction
-
-why are we interested in this topic
-
-<div grid="~ cols-2 gap-2" m="-t-3">
-
-
-</div>
-<br>
-<br>
-<br>
-<br>
-
-- interdisciplinary research area 
-- young in terms of contribution
-- safety critical systems
-- thrives through machine learning
-- how cross-domain can ML algorithms be
-- reinforcement learning outside of the box
-  
-</template>
-<template v-slot:right>
-
-
-<div v-motion-pop>
-  <img
-    :src="'./wordcloud.svg'"
-    class="mt-20 rounded-6xl"
-  />
-</div>
-<div class="source ml-18">
-<p class="text-xs text-white">crawled from https://en.wikipedia.org/wiki/Anomaly_detection</p>
-</div>
-
-<Bar title="Machine Learning for Safer Smart Environments"/>
-</template>
-
-<style>
-.source{
-  transform: translatey(-50px);
-}
-</style>
+src: ./pages/introduction.md
 ---
 ---
-# State of the Art
-how far goes current/past research
-
-<br>
-<br>
-
-- interesting, but off-topic
-  - <MyModal titleModalHook="hyperparameter optimization with reinforcement learning" imageUri="./sota1.png"></MyModal>
-  - <MyModal titleModalHook="network intrusion detection based on MDPs" imageUri="./sota2.png"></MyModal>
-  - <MyModal titleModalHook="hypothetical anomaly detection framework for sensor networks" imageUri="./sota3.png"></MyModal>
-  - <MyModal titleModalHook="expert support system for optimal database queries" imageUri="./sota4.png"></MyModal>
-- interesting, and on timeseries
-  - <MyModal titleModalHook="inverse reinforcement learning on trajectory data" imageUri="./sota5.png"></MyModal>
-  - <MyModal titleModalHook="deep q-learning anomaly detection framework" imageUri="./sota6.png"></MyModal>
-  - <MyModal titleModalHook="asynchronous actor critic anomaly detection" imageUri="./sota7.png"></MyModal>
-  
-
-<Bar title="Machine Learning for Safer Smart Environments"/>
+src: ./pages/sota.md
 ---
 layout: two-cols
 preload: false
 ---
-
-<template v-slot:default>
-
-# Objectives
-
-without objectives there's no goal
-
-<br>
-<br>
-<br>
-<br>
-
-- development of a novel anomaly detection approach
-- transfer of prioritized deep q-learning upon anomaly detection
-- including software design principles
-- evaluating the performance of the approach
-- discussing the impact and future relevance
-
-</template>
-
-<template v-slot:right>
-
-<div class="mt-47">
-
-```python {all|2|3|4-7|8|all}
-def achieve_goals(objectives):
-  results = []
-  for objective in objectives:
-    result = use_brain(objective) # true/false
-    if not result: # bruteforce
-      result = dig_deeper(objective, use_brain)
-    results.append(result)
-  assert(len(results) == len(objectives)) # get M.Sc.
-```
-
-</div>
-
-<Bar title="Machine Learning for Safer Smart Environments"/>
-
-</template>
-
-
+src: ./pages/objectives.md
+---
+---
+src: ./pages/problem.md
+---
+---
+src: ./pages/problem_rl.md
 ---
 layout: image-right
 image: https://source.unsplash.com/collection/94734566/1920x1080
