@@ -41,6 +41,9 @@ src: ./pages/problem.md
 ---
 src: ./pages/problem_rl.md
 ---
+---
+src: ./pages/problem_ad.md
+---
 layout: image-right
 image: https://source.unsplash.com/collection/94734566/1920x1080
 ---
