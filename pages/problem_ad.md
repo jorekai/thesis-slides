@@ -1,5 +1,4 @@
 ---
-preload: false
 layout: two-cols
 ---
 
@@ -28,6 +27,5 @@ a view of anomaly detection
         <iframe allowfullscreen width="700" height="350" frameborder="0" scrolling="no" src="//plotly.com/~jorekai/9.embed?modebar=false&link=false"></iframe>
     </MyModal>
 </div>
-
 
 <Bar title="Machine Learning for Safer Smart Environments"/>
