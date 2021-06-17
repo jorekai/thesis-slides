@@ -50,6 +50,12 @@ src: ./pages/problem_ts.md
 ---
 src: ./pages/model.md
 ---
+---
+src: ./pages/model_next.md
+---
+---
+src: ./pages/design.md
+---
 layout: image-right
 image: https://source.unsplash.com/collection/94734566/1920x1080
 ---

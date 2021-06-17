@@ -22,14 +22,17 @@ what we want
 
 what we get
 
-<div class="actual mt-10">
+<div v-click class="actual mt-10">
     <div class="">
-        <img :src="'./csv.png'">
+        <img class="rounded" :src="'./csv.png'">
     </div>
     <div class="mt-2">
-        <img :src="'./csv2.png'">
+        <img class="rounded" :src="'./csv2.png'">
     </div>
 </div>
+
+<Bar title="Machine Learning for Safer Smart Environments"/>
+
 
 <style>
 .actual{
