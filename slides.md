@@ -59,6 +59,12 @@ src: ./pages/design.md
 ---
 src: ./pages/impl_env.md
 ---
+---
+src: ./pages/impl_agent.md
+---
+---
+src: ./pages/impl_sim_eval.md
+---
 layout: none
 ---
 
