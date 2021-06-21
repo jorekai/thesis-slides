@@ -1,4 +1,4 @@
-# Implementation - environment
+# Environment
 
 decouple environment logic and setup
 
@@ -21,4 +21,4 @@ class BaseEnvironment:
     def is_anomaly(self) -> bool:
 ```
 
-<Bar title="Machine Learning for Safer Smart Environments"/>
+<Bar title="Machine Learning for Safer Smart Environments - Implementation"/>

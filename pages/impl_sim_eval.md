@@ -62,4 +62,4 @@ class Stats:
 
 </div>
 
-<Bar title="Machine Learning for Safer Smart Environments"/>
+<Bar title="Machine Learning for Safer Smart Environments - Implementation"/>

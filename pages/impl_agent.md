@@ -1,4 +1,4 @@
-# Implementation - agent
+# Agent
 
 expose the interface for all agents
 
@@ -21,4 +21,4 @@ class BaseAgent(ABC):
     def anneal_epsilon(self) -> None:
 ```
 
-<Bar title="Machine Learning for Safer Smart Environments"/>
+<Bar title="Machine Learning for Safer Smart Environments - Implementation"/>
