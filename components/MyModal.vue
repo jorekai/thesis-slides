@@ -5,6 +5,10 @@ export default {
       type: String,
       required: true,
     },
+    classes: {
+      type: String,
+      required: false,
+    },
     imageUri: {
       type: String,
       required: true,
@@ -24,7 +28,21 @@ export default {
 </script>
 
 <template>
-  <button v-on:click="setOpen()">
+  <button
+    class="
+      animate-pulse-slow
+      cursor-pointer
+      bg-transparent
+      hover:bg-blue-300
+      hover:text-white
+      py-1
+      px-2
+      hover:border-transparent
+      rounded
+      {{classes}}
+    "
+    v-on:click="setOpen()"
+  >
     {{ titleModalHook }}
   </button>
   <Modal v-bind:value="open" @setOpen="setOpen" class="px-6 py-4">

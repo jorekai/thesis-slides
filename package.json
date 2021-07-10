@@ -13,5 +13,8 @@
     "playwright-chromium": "^1.11.1",
     "vue-js-modal": "^2.0.0-rc.6"
   },
-  "name": "slides"
+  "name": "slides",
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.12.1"
+  }
 }
