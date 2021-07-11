@@ -1,6 +1,9 @@
 // windi.config.ts
-import scrollSnapPlugin from "windicss/plugin/scroll-snap";
+
+import "@windicss/plugin-scrollbar";
+
 import { defineConfig } from "windicss/helpers";
+import scrollSnapPlugin from "windicss/plugin/scroll-snap";
 
 export default defineConfig({
   plugins: [

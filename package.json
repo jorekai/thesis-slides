@@ -15,6 +15,7 @@
   },
   "name": "slides",
   "devDependencies": {
-    "@nuxtjs/vuetify": "^1.12.1"
+    "@nuxtjs/vuetify": "^1.12.1",
+    "@windicss/plugin-scrollbar": "^1.2.3"
   }
 }

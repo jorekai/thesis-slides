@@ -72,10 +72,17 @@ src: ./pages/experiments.md
 src: ./pages/results.md
 ---
 ---
+src: ./pages/fazit.md
+---
+---
 layout: center
 class: text-center
 ---
 
 # Resources
 
-[Documentations](https://sli.dev) / [GitHub Repo](https://github.com/slidevjs/slidev)
+[GitHub - Custom Implementation](https://github.com/jorekai/DQN-Timeseries-Anomaly-Detection)
+<br>
+[GitHub - Baselines Implementation](https://github.com/jorekai/AD-Environment-Baselines)
+
+<Bar title="A thesis by Nils Jorek"/>

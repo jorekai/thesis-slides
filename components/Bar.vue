@@ -41,7 +41,7 @@ export default {
   ></div>
   <div
     v-if="cover !== false || logo !== false"
-    class="flex w-full absolute h-2/10 top-0 left-0 py-0.5 px-6 text-sm"
+    class="flex w-full absolute h-2/10 top-0 left-0 py-0.5 px-6 text-sm justify-end"
   >
     <v-row class="flex">
       <v-col>
