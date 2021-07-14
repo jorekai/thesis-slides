@@ -1,4 +1,5 @@
 ---
+preload: true
 layout: two-cols
 ---
 

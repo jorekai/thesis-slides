@@ -1,5 +1,5 @@
 ---
-preload: false
+preload: true
 layout: two-cols
 ---
 
@@ -19,7 +19,7 @@ a view of reinforcement learning
 
 ::right::
 
-<div v-motion-pop>
+<div>
 <img :src="'./rl.png'" class="mt-20">
 </div>
 

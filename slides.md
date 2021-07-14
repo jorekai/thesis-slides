@@ -23,7 +23,7 @@ src: ./pages/cover.md
 src: ./pages/agenda.md
 ---
 layout: two-cols
-preload: false
+preload: true
 ---
 src: ./pages/introduction.md
 ---
@@ -31,7 +31,7 @@ src: ./pages/introduction.md
 src: ./pages/sota.md
 ---
 layout: two-cols
-preload: false
+preload: true
 ---
 src: ./pages/objectives.md
 ---

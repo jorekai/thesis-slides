@@ -1,6 +1,6 @@
 ---
 layout: two-cols
-preload: false
+preload: true
 ---
 
 <template v-slot:default>
@@ -22,14 +22,14 @@ why are we interested in this topic
 - young in terms of contribution
 - safety critical systems
 - thrives through machine learning
-- how cross-domain can ML algorithms be
+- cross-domain application of RL
 - reinforcement learning outside of the box
   
 </template>
 <template v-slot:right>
 
 
-<div v-motion-pop>
+<div>
   <img
     :src="'./wordcloud.svg'"
     class="mt-20 rounded-6xl"

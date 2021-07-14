@@ -1,6 +1,6 @@
 ---
 layout: two-cols
-preload: false
+preload: true
 ---
 
 <template v-slot:default>
@@ -14,9 +14,9 @@ without objectives there's no goal
 <br>
 <br>
 
-- development of a novel anomaly detection approach
+- development of a novel anomaly detection framework
 - transfer of prioritized deep q-learning upon anomaly detection
-- including software design principles
+- maintain software design principles
 - evaluating the performance of the approach
 - discussing the impact and future relevance
 

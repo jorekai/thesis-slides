@@ -14,10 +14,11 @@ reinforcement learning looks promising
 <br>
 <br>
 
-- DRL for anomaly detection is a young area
+- DRL for anomaly detection is in its infancy
 - developing extensible approaches is important
-- achieved comparable results to other approaches
+- achieved comparable, reproducible results
 - more datasets improve evaluation of the method
+- can there be more feature observations?
 - can we think about real-world use cases?
 
 </template>

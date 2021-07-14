@@ -1,6 +1,6 @@
 ---
 layout: two-cols
-preload: false
+preload: true
 ---
 
 # Problem
@@ -20,7 +20,7 @@ abstraction and understanding
 
 ::right::
 
-<div v-motion-pop>
+<div>
 <img :src="'./problem.svg'" class="mt-20 rounded-6xl">
 </div>
 
