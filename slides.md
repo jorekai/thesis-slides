@@ -54,9 +54,6 @@ src: ./pages/model.md
 src: ./pages/model_next.md
 ---
 ---
-src: ./pages/design.md
----
----
 src: ./pages/experiments.md
 ---
 ---
