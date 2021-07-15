@@ -19,7 +19,7 @@ die Ansicht aus der Anomaly Detection
 ::right::
 
 <div class="mt-50 ml-50">
-    <MyModal titleModalHook="Click Me...">
+    <MyModal titleModalHook="Click me...">
         <iframe allowfullscreen width="700" height="350" frameborder="0" scrolling="no" src="//plotly.com/~jorekai/5.embed?modebar=false&link=false"></iframe>
     </MyModal>
     <div class="mt-10 mr-50"></div>

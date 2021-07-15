@@ -70,10 +70,14 @@ layout: center
 class: text-center
 ---
 
-# Resources
+# Quellen
 
-[GitHub - Custom Implementation](https://github.com/jorekai/DQN-Timeseries-Anomaly-Detection)
+[GitHub - Implementierung](https://github.com/jorekai/DQN-Timeseries-Anomaly-Detection)
 <br>
-[GitHub - Baselines Implementation](https://github.com/jorekai/AD-Environment-Baselines)
+[GitHub - Baselines Implementierung](https://github.com/jorekai/AD-Environment-Baselines)
+<br>
+[Ergebnisse - Falling Detection](https://docs.google.com/spreadsheets/d/1rkfTp8yeV62AFz41LJTnGfkmI8QUMlni4Zq8bhsYH9U/edit?usp=sharing)
+<br>
+[Ergebnisse - Occupancy Detection](https://docs.google.com/spreadsheets/d/1OYK9d0TVu8oejAtVwMnga9brsvdCiZiVlqKu9BPpRsM/edit?usp=sharing)
 
 <Bar title="A thesis by Nils Jorek"/>
