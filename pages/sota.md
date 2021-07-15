@@ -2,20 +2,20 @@
 preload: true
 ---
 # State of the Art
-how far goes current/past research
+wie weit ist die Wissenschaft
 
 <br>
 <br>
 
-- interesting, but off-topic
-  - <MyModal titleModalHook="hyperparameter optimization with reinforcement learning" imageUri="./sota1.png" classes="text-blue-500"></MyModal>
-  - <MyModal titleModalHook="network intrusion detection based on MDPs" imageUri="./sota2.png"></MyModal>
-  - <MyModal titleModalHook="hypothetical anomaly detection framework for sensor networks" imageUri="./sota3.png"></MyModal>
-  - <MyModal titleModalHook="expert support system for optimal database queries" imageUri="./sota4.png"></MyModal>
-- interesting, and on timeseries
-  - <MyModal titleModalHook="inverse reinforcement learning on trajectory data" imageUri="./sota5.png"></MyModal>
-  - <MyModal titleModalHook="deep q-learning anomaly detection framework" imageUri="./sota6.png"></MyModal>
-  - <MyModal titleModalHook="asynchronous actor critic anomaly detection" imageUri="./sota7.png"></MyModal>
+- interessant, aber nicht auf Zeitserien.
+  - <MyModal titleModalHook="Optimierung von Hyperparametern" imageUri="./sota1.png" classes="text-blue-500"></MyModal>
+  - <MyModal titleModalHook="Netzwerksicherheit mit RL-Agenten" imageUri="./sota2.png"></MyModal>
+  - <MyModal titleModalHook="theoretisches RL-Framework für Anomaly Detection" imageUri="./sota3.png"></MyModal>
+  - <MyModal titleModalHook="autonomes Anomalie DB-Query System" imageUri="./sota4.png"></MyModal>
+- interessant, und auf Zeitserien
+  - <MyModal titleModalHook="Inverses Reinforcement Learning auf anomalen Trajektorien" imageUri="./sota5.png"></MyModal>
+  - <MyModal titleModalHook="Deep Q-learning für Anomaly Detection" imageUri="./sota6.png"></MyModal>
+  - <MyModal titleModalHook="Asynchronous Actor Critic Anomaly Detection" imageUri="./sota7.png"></MyModal>
   
 
 <Bar title="Machine Learning for Safer Smart Environments"/>
