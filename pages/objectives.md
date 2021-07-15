@@ -5,20 +5,20 @@ preload: true
 
 <template v-slot:default>
 
-# Objectives
+# Ziele
 
-without objectives there's no goal
+was soll erreicht werden?
 
 <br>
 <br>
 <br>
 <br>
 
-- development of a novel anomaly detection framework
-- transfer of prioritized deep q-learning upon anomaly detection
-- maintain software design principles
-- evaluating the performance of the approach
-- discussing the impact and future relevance
+- die Analyse von Deep-RL zur Anomalieerkennung
+- die Erweiterung mittels Prioritized Experience Replay
+- erweiterbare und reproduzierbare Ergebnisse
+- eine Auswertung der erreichten Ergebnisse
+- zuletzt: Diskussion über die Relevanz in Zukunft
 
 </template>
 
@@ -27,15 +27,15 @@ without objectives there's no goal
 <div class="mt-45">
 
 ```python {all|2|3|4-7|8|all}
-def achieve_goals(objectives):
-  results = []
-  for objective in objectives:
-    result = False
-    result = use_brain(objective) # true/false
-    if not result: # bruteforce
-      result = dig_deeper(objective, use_brain)
-    results.append(result)
-  assert(len(results) == len(objectives)) # get M.Sc.
+def erreiche_ziele(zielsetzung):
+  ergebnisse = []
+  for ziel in zielsetzung:
+    ergebnis = False
+    ergebnis = brainpower(ziel) # true/false
+    if not ergebnis: # bruteforce
+      ergebnis = more_brainpower(ziel)
+    ergebnisse.append(result)
+  assert(len(ergebnisse) == len(zielsetzung)) # M.Sc.
 ```
 
 </div>
