@@ -4,7 +4,7 @@
 ### Learning for Time Series Anomaly Detection
 
 
-<Bar title="A thesis by Nils Jorek" cover/>
+<Bar title="präsentiert von Nils Jorek" cover/>
 
 
 

@@ -1,18 +1,18 @@
 
 # Agenda
 
-or today's lunch
+bzw. die Speißekarte
 
 <br>
 <br>
 
-1. 📝 **Introduction** - why are we interested in this topic
-2. 📡 **State of the Art** - how far goes current/past research
-3. 🔎 **Objectives** - without objectives there's no goal
-4. 🧠 **Problem Model** - brain power's needed here
-5. ⌨️ **Design & Implementation** - computer scientists love this part
-6. 🥼 **Experiments & Results** - did we actually achieve something
-7. 🛠 **Conclusion & Outlook** - on the future of anomaly detection
+1. 📝 **Einführung** - warum sollte das interessant sein?
+2. 📡 **State of the Art** - wie weit ist die Wissenschaft?
+3. 🔎 **Ziele** - welche Ziele verfolgt wurden
+4. 🧠 **Problem Model** - die Abstraktion der Abstraktion
+5. ⌨️ **Design & Implementierung** - ein Anschnitt der spaßigsten Sache
+6. 🥼 **Experimente & Ergebnisse** - was haben wir damit erreicht?
+7. 🛠 **Fazit & Ausblick** - was bringt die Zukunft
 
 
 
