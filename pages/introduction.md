@@ -5,9 +5,9 @@ preload: true
 
 <template v-slot:default>
 
-# Introduction
+# Einführung
 
-why are we interested in this topic
+ein durchaus interessantes Thema
 
 <div grid="~ cols-2 gap-2" m="-t-3">
 
@@ -18,12 +18,11 @@ why are we interested in this topic
 <br>
 <br>
 
-- interdisciplinary research area 
-- young in terms of contribution
-- safety critical systems
-- thrives through machine learning
-- cross-domain application of RL
-- reinforcement learning outside of the box
+- ein interdisziplinäres Forschungsfeld
+- steckt noch in den Kinderschuhen
+- findet Anwendung in sicherheitskritischen Bereichen
+- u.A. mit Verwendung von Machine Learning
+- außerdem RL in ungewohntem Terrain
   
 </template>
 <template v-slot:right>
@@ -36,7 +35,7 @@ why are we interested in this topic
   />
 </div>
 <div class="source ml-18">
-<p class="text-xs text-white">crawled from https://en.wikipedia.org/wiki/Anomaly_detection</p>
+<p class="text-xs text-white">crawled @ https://en.wikipedia.org/wiki/Anomaly_detection</p>
 </div>
 
 <Bar title="Machine Learning for Safer Smart Environments"/>
