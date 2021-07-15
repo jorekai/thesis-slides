@@ -5,23 +5,23 @@ preload: true
 
 # Model
 
-understanding the model
+verstehen wir es vorerst
 
 <br>
 <br>
 <br>
 
-- states are $h$ past observations of the environment's sensors
-- states include the min-max scaled features of the data
-- past actions are concatenated into the observation
-- agent chooses most recent actions based on $h$ past observations
-- the environment rewards the agent based on the choice
+- Zustände beschreiben den vergangenen Horizont $h$
+- Features werden min-max skaliert
+- vergangene Aktionen werden inkludiert (partially observable MDP)
+- ein Agent wählt Aktionen basierent auf $h$
+- die Umwelt belohnt den Agenten entsprechend seiner Aktion
 
 ::right::
 
-# Visualization
+# Visualisierung
 
-MDP observation extraction
+die Zustandsextraktion
 
 <div class="mt-10">
 <img :src="'./pomdp.jpg'" class="max-h-100">
