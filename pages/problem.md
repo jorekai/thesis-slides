@@ -3,20 +3,20 @@ layout: two-cols
 preload: true
 ---
 
-# Problem
+# Das Problem
 
-abstraction and understanding
+und wie es sich zusammensetzt
 
 <br>
 <br>
 <br>
 
-- the problem depends on three large areas
-- approach can be seen as $AD \cap RL$
-- learn the mathematical properties of $AD \cap TS$
-- incorporate the information of $RL \cap TS$
-- deduct the problem model as $AD \cap RL \cap TS$
-- next: look at the different point of views
+- im Urprung aus drei Forschungsfeldern
+- der Ansatz ist aus $AD \cap RL$
+- die mathematischen Eigenschaften sind aus $AD \cap TS$
+- Information bekommt man aus $RL \cap TS$
+- daraus folt das Problem als: $AD \cap RL \cap TS$
+- zunächst: ein Blick auf die einzelnen Perspektiven
 
 ::right::
 

@@ -3,19 +3,19 @@ preload: true
 layout: two-cols
 ---
 
-# Problem - RL
+# Problem - (D)RL
 
-a view of reinforcement learning
+die Sicht des Reinforcement Learning
 
 <br>
 <br>
 <br>
 
-- how to merge anomaly detection from sensor data and decision making?
-- actions/rewards are the driving force for decision making
-- which information is part of the environment?
-- how do rewards and state representations look like?
-- is the framework of RL alone enough?
+- Wie verbindet man Anomalieerkennung und die Entscheidungsfindung aus dem RL?
+- Aktionen und Belohnung sind die treibende Kraft
+- Welche Informationen bildet die Umwelt ab?
+- Wie können wir Belohnung und Zustände abbilden?
+- Reicht das Framework aus dem RL aus?
 
 ::right::
 

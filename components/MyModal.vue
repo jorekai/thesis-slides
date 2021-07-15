@@ -35,7 +35,6 @@ export default {
       bg-transparent
       hover:bg-blue-300
       hover:text-white
-      py-1
       px-2
       hover:border-transparent
       rounded
