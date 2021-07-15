@@ -5,7 +5,7 @@ preload: false
 
 # Occupancy Detection
 
-Results
+Ergebnisse I
 
 
 
@@ -14,7 +14,7 @@ Results
     <v-flex shrink>
       <div>
         <img
-    :src="'./ocupancy.png'"
+    :src="'./occupancy.png'"
     class="w-7/8 mt-12"
   />
       </div>
@@ -26,7 +26,7 @@ Results
 
 # Falling Detection
 
-Results
+Ergebnisse II
 
 <v-container fluid>
   <v-layout justify-center align-center>

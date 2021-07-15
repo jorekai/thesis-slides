@@ -7,19 +7,19 @@ preload: false
 
 # Fazit
 
-reinforcement learning looks promising
+ein vielversprechendes Prinzip
 
 <br>
 <br>
 <br>
 <br>
 
-- DRL for anomaly detection is in its infancy
-- developing extensible approaches is important
-- achieved comparable, reproducible results
-- more datasets improve evaluation of the method
-- can there be more feature observations?
-- can we think about real-world use cases?
+- DRL im Zusammenhang mit AD noch rar erforscht
+- erweiterbare RL Methoden sind wichtig
+- vergleichbare und reproduzierbare Ergebnisse wurden erzielt
+- mehr Datensätze bieten mehr Vergleiche
+- kann man mehr als nur Sensoren betrachten?
+- welche Anwendung gibt es in der echten Welt?
 
 </template>
 
