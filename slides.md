@@ -57,15 +57,6 @@ src: ./pages/model_next.md
 src: ./pages/design.md
 ---
 ---
-src: ./pages/impl_env.md
----
----
-src: ./pages/impl_agent.md
----
----
-src: ./pages/impl_sim_eval.md
----
----
 src: ./pages/experiments.md
 ---
 ---

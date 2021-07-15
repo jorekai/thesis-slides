@@ -21,7 +21,7 @@ verstehen wir es vorerst
 
 # Visualisierung
 
-die Zustandsextraktion
+bzw. die Zustandsextraktion
 
 <div class="mt-10">
 <img :src="'./pomdp.jpg'" class="max-h-100">

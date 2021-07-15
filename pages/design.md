@@ -2,9 +2,9 @@
 layout: two-cols
 ---
 
-# Design - flow
+# Design - Flussdiagramm
 
-training of an RL anomaly detector
+ein iterativer Prozess
 
 <div>
 <img class="mt-15 scroll" :src="'./program.jpg'">
@@ -12,9 +12,9 @@ training of an RL anomaly detector
 
 ::right::
 
-# Design - entities
+# Design - Relationen
 
-from abstraction to code
+die Implementierung der Abstraktion
 
 <div class="max-h-75 snap snap-y snap-mandatory scroll scrollbar-hide items-center">
     <section class="snap-start">
