@@ -1,4 +1,8 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# Exploration and Evaluation of Reinforcement Learning for Anomaly Detection
+
+The thesis slides styled with the FRA-UAS theme.
+
+# Slides made with Slidev.js!
 
 To start the slide show:
 
